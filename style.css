@@ -7,6 +7,7 @@
 
 .container {
     position: relative;
+    height: 100vh;
 }
 
 .head {
@@ -15,28 +16,6 @@
     width: 50%;
     position: absolute;
     left: 25%;
-}
-
-.main-body h3 {
-    font-size: 3rem;
-    color: orangered;
-    background-color: yellowgreen;
-    
-}
-
-.main-body p {
-    font-size: 1.5rem;
-    color: rgb(105, 169, 209);
-    background-color: moccasin;
-}
-
-.main-body {
-    position: absolute;
-    width: 40%;
-    border: 2px lightcoral solid;
-    left: 30%;
-    top: 290px;
-    text-align: center;
 }
 
 .head h1 {
@@ -48,6 +27,29 @@
 
 .head p {
     font-size: 1rem;
+    color: rgb(105, 169, 209);
+    background-color: moccasin;
+}
+
+.main-body {
+    position: absolute;
+    width: 40%;
+    border: 2px lightcoral solid;
+    left: 30%;
+    top: 30%;
+    /* top: 290px; */
+    text-align: center;
+}
+
+.main-body h3 {
+    font-size: 3rem;
+    color: orangered;
+    background-color: yellowgreen;
+    
+}
+
+.main-body p {
+    font-size: 1.5rem;
     color: rgb(105, 169, 209);
     background-color: moccasin;
 }
